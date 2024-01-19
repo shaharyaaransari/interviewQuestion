@@ -1,0 +1,82 @@
+* {
+  font-family: Arial;
+}
+
+.App {
+  background-color: #24232b;
+  padding: 24px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a8b8b;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.copybtn {
+  height: 30px;
+  font-size: 10px;
+}
+
+.charlength {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.charlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.checkbox div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.gerneratebtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.erroMessage {
+  color: red;
+  padding: 10px;
+}
+
+.pass-strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: white;
+}
