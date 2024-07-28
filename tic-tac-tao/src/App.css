@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(112, 159, 159);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  border: 2px solid #cccc;
+  cursor: pointer;
+  font-size: 36px;
+  transition: backgound-color 0.3s ease-in-out;
+  width: 100px;
+  height: 100px;
+}
+.box:hover {
+  background-color: #a07a7a;
+}
+.board {
+  margin: auto;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.btn{
+  width: 150px;
+  margin-bottom: 10px;
+}
